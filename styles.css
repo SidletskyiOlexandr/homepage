@@ -143,6 +143,12 @@ body {
     justify-content: center;
 }
 
+.transform__intro__icon {
+    margin-left: 30px;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
 .intro__icon {
     height: 1.1428rem;
     vertical-align: text-bottom;
@@ -168,8 +174,19 @@ body {
     text-align: justify;
 }
 
+.skill-column {
+    margin: 0px 25px 0px 25px;
+}
+
+.skill-block{
+    margin-top: 10px;
+}
+
+.skill-description{
+    padding-left: 30px;
+}
+
 .experiences {
-    flex: 1 1 60%;
     margin-right: 50px;
 }
 
@@ -212,6 +229,10 @@ body {
     margin-bottom: 10px;
 }
 
+.project-description{
+    text-align: justify;
+}
+
 .experiences__company-project-responsibilities {
     color: var(--secondary-text-color);
     padding-left: 20px;
@@ -249,7 +270,7 @@ body {
 }
 
 .additional-info__languages {
-    margin-bottom: 20px;
+    margin-right: 50px;
 }
 
 .additional-info__languages-header {
